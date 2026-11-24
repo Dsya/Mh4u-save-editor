@@ -18,7 +18,7 @@ android {
         ndk {
             // arm64 untuk HP modern, armeabi-v7a untuk HP lama, x86_64 untuk emulator.
             // Hapus yang tidak perlu agar APK lebih kecil.
-            abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64")
+            abiFilters += listOf("arm64-v8a", "x86_64")
         }
     }
 
